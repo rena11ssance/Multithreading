@@ -47,6 +47,7 @@ namespace Multithreading
                         field[i, j] = 1;
                         Thread.Sleep(10);
                     }
+
                     else if (field[i, j] == 2)
                     {
                         continue;
@@ -71,6 +72,7 @@ namespace Multithreading
                         field[i, j] = 2;
                         Thread.Sleep(10);
                     }
+
                     else if (field[i, j] == 1)
                     {
                         continue;
